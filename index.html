@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Project Euler - Problem 4</title>
+  <script src="palindromic_number_finder.js"></script>
+</head>
+
+<body>
+  <h1>Project Euler - Problem 4</h1>
+  <p>A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers
+    is 9009 = 91 × 99.</p>
+
+  <h3>Find the largest palindrome made from the product of two 3-digit numbers.</h3>
+  <hr>
+  <h2>The solution is: <span id="solution">?</span></h2>
+  <script>
+    // const palindromicNumberFinder = new PalindromicNumberFinder(10, 99)
+    const palindromicNumberFinder = new PalindromicNumberFinder(100, 999)
+    const solution = palindromicNumberFinder.find()
+    document.getElementById('solution').innerText = `${solution}`
+  </script>
+</body>
+
+</html>
