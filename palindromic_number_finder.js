@@ -16,6 +16,7 @@ class PalindromicNumberFinder {
         const product = numberOne * numberTwo;
         const productString = `${product}`;
 
+        // Reverse the product string using JS' built-in functions
         let reversedProductString = productString.split("").reverse().join("");
         if (productString === reversedProductString) {
           if (product > max) {
